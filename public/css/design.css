@@ -1,0 +1,230 @@
+.menu {
+
+    width: 60%;
+    position: relative;
+    bottom: 5%;
+    left: 20%;
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+.btn {
+    width: 25%;
+}
+
+
+.custom-text {
+    font: 20px arial, sans-serif;
+    margin: 0 auto;
+}
+
+
+.image-form {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 350px;
+    height: 500px;
+    border: #009ddc 2px solid;
+}
+
+.shirt-form {
+    position: absolute;
+    left: 73%;
+    top: 15%;
+    width: 350px;
+    height: 500px;
+    border: #009ddc 2px solid;
+
+}
+
+.card-header {
+    height: 12%;
+    font: 20px arial, sans-serif;
+    color: white;
+
+}
+
+.btn-blue {
+    background-color: #009ddc;
+    color: white;
+    text-align: center;
+}
+
+.text-browse {
+    width: 60px;
+    height: 35px;
+}
+
+#browse {
+    display: none;
+}
+
+.btn-upload {
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+
+.pos-image {
+    margin-left: 25%;
+    margin-right: auto;
+    margin-top: 3%;
+    width: 50%;
+
+
+}
+
+.square-line {
+    position: absolute;
+    border: gray 1px dotted;
+    top: 30%;
+    left: 42%;
+    padding: 180px 115px;
+    
+}
+
+#img-upload {
+    position: absolute;
+    display: none;
+    top: 35%;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    border: none;
+   
+}
+#text-upload {
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 25px;
+    padding: 5px;
+    color: #009ddc;
+    display: none;
+}
+
+
+
+/* .active {
+
+    z-index: 2;
+} */
+
+.shirt-body {
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.img-info {
+    float: left;
+    margin-right: 15px;
+}
+
+.tag {
+
+    font-size: 15px;
+    color: #f57224;
+}
+
+.shirt-info {
+    margin-top: 10px;
+}
+
+.shirt-allinfo {
+    clear: both;
+    height: 110px;
+    margin-top: 0;
+    width: a;
+    margin: 5px;
+    border-bottom: #009ddc 2px solid;
+}
+
+.shirt-allinfo:hover {
+    border: red 2px solid;
+}
+
+
+#text-upload:hover {
+    border: gray 2px dotted;
+    
+}
+
+#img-upload:hover {
+    border: gray 2px dotted;
+    
+}
+
+.warn{
+    top: 20%;
+    left: 40%;
+    width:400px;
+    position: absolute;
+}
+
+#img-delete{
+    display: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+}
+#text-delete{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+
+.color-blue {
+    color: #08588c;
+    margin: 0px 20px;
+}
+
+.btn-search {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #08588c;
+    color: #08588c;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5%;
+    height: 30px;
+    font-size: 16px;
+}
+
+.custom-text-area{
+    display: none;
+    margin-top: 20px;
+}
+#table-text .card-body{
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    color: black;
+}
+
+.color-fill-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin: 2px;
+}
+
+.dropdown-color-fill-icon {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-right: 0
+}
+
+.card-header{
+    text-align: center;
+    background: #009ddc;
+    padding:20px;
+}
+

@@ -1,0 +1,158 @@
+<div class="user">
+    <div class="card hovercard">
+        <div class="card-background">
+            <img class="card-bkimg" alt="" src="image/image4.jpg">
+        </div>
+        <div class="useravatar">
+            <img alt="" src="image/image4.jpg">
+        </div>
+        <div class="card-info">
+            {{#if user.name}}
+            <span class="card-title">{{user.name}}</span>
+            {{else}}
+            <span class="card-title">{{user.email}}</span>
+            {{/if}}
+        </div>
+    </div>
+</div>
+
+<div class="info">
+    <div class="span1">
+        <h3>Thông tin tài khoản</h3>
+        <hr>
+        <label class="label">Name:</label>
+        {{#if user.name}}
+           <label id="name" class="txt">{{user.name}}</label>
+            {{else}}
+            <label id="name" class="txt">None</label>
+        {{/if}}
+        
+        <br>
+        <label class="label">Phone:</label>
+         {{#if user.phone}}
+           <label id="phone" class="txt">{{user.phone}}</label>
+            {{else}}
+            <label id="phone" class="txt">None</label>
+        {{/if}}
+        <br>
+        <label class="label">Address:</label>
+         {{#if user.address}}
+           <label id="address" class="txt">{{user.address}}</label>
+            {{else}}
+            <label id="address" class="txt">None</label>
+        {{/if}}
+        <div id="btn_update_account">
+            <input class="btn-primary" type="submit" value="Update information" id="btn_update" style="height:50px; font-size:20px;background-color:#009ddc;">
+        </div>
+    </div>
+    <div class="span2">
+
+        <h3>Cart</h3>
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+
+        <div class="card-bill">
+            <div class="bill-image">
+                <img src="image/shirt-1.jpeg" height="100" width="100" alt="Card image cap">
+            </div>
+            <div class="bill">
+                <h5>Áo sơ mi nam
+                    <h5>
+                        <p class="tag">200.000 VND</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="update_info">
+            
+            <label class="label">
+                 Name:
+            </label>
+            <br>
+            <br>
+
+            <input type="text" class="form-control" id="edt_name" placeholder="Enter your name" name="email" style="height:50px;">
+
+            <br>
+
+            <label class="label">
+                Phone:
+            </label>
+            <br>
+            <br>
+
+            <input type="text" class="form-control" id="edt_phone" placeholder="Enter your Phone Number" name="email" style="height:50px;">
+
+            <br>
+
+            <label class="label">
+                Address:
+            </label>
+            <br>
+            <br>
+            <input type="text" class="form-control" id="edt_address" placeholder="Enter your Address" name="email" style="height:50px;">
+            <br>
+            <div id="btn_update_account">
+                <input class="btn-primary" type="submit" value="Update" id="btn_update_box" style="height:50px; font-size:20px;background-color:#009ddc;">
+            </div>
+        </div>
+    </div>
+</div>
